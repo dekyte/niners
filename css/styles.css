@@ -1,0 +1,213 @@
+
+body {
+  background-color: #F4FCD9;
+  color: #534340;
+  font-family: "Montserrat";
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+h3 {
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0 20px;
+}
+
+nav {
+  background-color: #F4FCD9;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.navbar-light .navbar-brand {
+  font-family: "Montserrat";
+  color: #534340;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#general-container {
+  background-color: #C5D8A4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 90%;
+  padding: 20px;
+}
+
+.general-heading {
+  padding-bottom: 20px;
+}
+
+.golf-course-img {
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.golf-ball-img {
+  width: 15%;
+  float: left;
+  margin-right: 20px;
+}
+
+#board-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 90%;
+}
+
+.board-heading {
+  padding: 0 0 20px 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 12rem;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  background-color: #C5D8A4;
+}
+
+.list-group-item {
+  text-align: center;
+  background-color: #C5D8A4;
+}
+
+.blank {
+  visibility: hidden;
+}
+
+#topics {
+  background-color: #C5D8A4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 90%;
+  padding: 10px 20px 10px;
+}
+
+.topics-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.topics-list {
+  position: relative;
+  left: 75px;
+}
+
+.news-img {
+  height: 175px;
+  position: relative;
+}
+
+#captains-plaque {
+  background-color: #C5D8A4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 90%;
+  padding: 10px 20px 20px;
+}
+
+.captains-plaque-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.captains-plaque-table {
+  position: relative;
+  left: 75px;
+}
+
+.award-img {
+  height: 175px;
+  position: relative;
+}
+
+.captains-plaque-table > thead {
+  text-align: center;
+}
+
+.captains-plaque-table > tbody {
+  text-align: center;
+}
+
+th, td {
+  padding: 0 20px 0;
+}
+
+#social-calendar {
+  background-color: #C5D8A4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 90%;
+  padding: 10px 20px 20px;
+}
+
+.social-calendar-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.social-calendar-table {
+  position: relative;
+  left: 75px;
+}
+
+.picnic-img {
+  height: 175px;
+  position: relative;
+}
+
+@media (max-width: 1300px) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  p, li, th, td {
+    font-size: 1.5rem;
+  }
+
+  .golf-course-img, .golf-ball-img, .news-img, .award-img, .picnic-img {
+    display: none;
+  }
+
+  .general-heading {
+    margin-top: 130px;
+  }
+
+  .general-text {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    width: 18rem;
+  }
+
+  .topics-list, .captains-plaque-table, .social-calendar-table {
+    left: 0;
+  }
+}
